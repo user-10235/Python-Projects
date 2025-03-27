@@ -1,5 +1,5 @@
 # Python-Projects
-This is a repository for python projects for a variety of applications, from beginner to advanced.
+This is a repository for python projects for a variety of applications with levels from beginner to advanced.
 
 Beginner Projects
 
