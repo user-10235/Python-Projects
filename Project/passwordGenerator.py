@@ -5,12 +5,8 @@ windowStr = "Enter the number of characters of your strong password."
 
 history = []
 
-
 menu = True
 window = True
-
-
-
 
 def passwordGenerator(number_input):
     number_of_characters = number_input
@@ -50,10 +46,10 @@ while menu:
 			input("Go Back")
 			window = False
 
-
 		elif choice == 3:
 			window = False
 			menu = False
+			os.system("cls")
 
 		while window:
 
@@ -77,8 +73,6 @@ while menu:
 					print(password)
 					print("Password is saved in Passwords.")
 					
-					
-
 				elif userPasswordChoice == "No" or userPasswordChoice == "no":
 					print("Password is saved in Passwords.")
 
@@ -86,14 +80,8 @@ while menu:
 					print("Invalid Input")
 					input("Go Back")
 					
-
-
-
-
-
 				input("Go Back ")
 				break
-
 
 			else:
 				print("Invalid Selection")
