@@ -8,4 +8,4 @@ Beginner Projects
 3) Alarm Clock
 4) Countdown Timer
 
-The first and second projects from the beginner section can run on the terminal such as Command Prompt or Windows PowerShell.
+The first and second projects from the beginner section can run on the Command Prompt or on Windows PowerShell.
