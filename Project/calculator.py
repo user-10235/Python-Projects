@@ -2,10 +2,12 @@ import os
 
 openString = "Integer Calcuator App\n1) Start\n2) Exit"
 
-def is_integer(s):
-    if s.startswith("-"):
-        return s[1:].isdigit()
-    return s.isdigit()
+def is_convertible_to_int(s):
+    try:
+        a = int(s)
+        return True
+    except ValueError:
+        return False
 
 
 
@@ -15,7 +17,7 @@ def equation(operator):
     while firstValue:
         first = input("Enter the first number --> ")
 
-        if is_integer(first):
+        if is_convertible_to_int(first):
             first = int(first)
             break
         else:
@@ -26,7 +28,7 @@ def equation(operator):
     while secondValue:
         second = input("Enter the second number --> ")
 
-        if is_integer(second):
+        if is_convertible_to_int(second):
             second = int(second)
             break
         else:
@@ -88,23 +90,33 @@ while menu:
         os.system("cls")
 
         print("Choose operation\n1) Addition\n2) Subtraction\n3) Multiplication\n4) Division\n5) Modulus\n6) History\n7) Back")
-        inOp = int(input("Enter operation choice --> "))
+        inOp = input("Enter operation choice --> ")
+        if is_convertible_to_int(inOp):
+            
+            inOp = int(inOp)
+            
 
 
-        if inOp == 1:
-            equation("+")
-        elif inOp == 2:
-            equation("-")
-        elif inOp == 3:
-            equation("*")
-        elif inOp == 4:
-            equation("/")
-        elif inOp == 5:
-            equation("%")
-        elif inOp == 6:
-            for i in range(len(history)):
-                print(str(history[i]))
-        elif inOp == 7:
-            calcMenu = False
+        if inOp == 1 or inOp == 2 or inOp == 3 or inOp == 4 or inOp == 5 or inOp == 6 or inOp == 7:
+            
+
+            if inOp == 1:
+                equation("+")
+            elif inOp == 2:
+                equation("-")
+            elif inOp == 3:
+                equation("*")
+            elif inOp == 4:
+                equation("/")
+            elif inOp == 5:
+                equation("%")
+            elif inOp == 6:
+                for i in range(len(history)):
+                    print(str(history[i]))
+            elif inOp == 7:
+                calcMenu = False
+        else:
+            print("Invalid selection")
+
 
         back = input("Back")
