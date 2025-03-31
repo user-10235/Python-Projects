@@ -8,3 +8,9 @@ Beginner Projects
 3) Alarm Clock
 4) Countdown Timer
 
+Intermediate Projects
+
+Advanced Projects
+
+1) Traffic Flow Simulation
+https://github.com/user-10235/MyFirstProject
