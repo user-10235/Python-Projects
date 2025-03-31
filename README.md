@@ -13,8 +13,5 @@ Intermediate Projects
 Advanced Projects
 
 1) Traffic Flow Simulation
-
-https://github.com/user-10235/MyFirstProject
-
 2) Advanced Claculator
 
