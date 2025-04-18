@@ -1,6 +1,6 @@
 Beginner Projects
 
-The calculator and the password generator can run on the Command Prompt or on Windows PowerShell.
+The calculator and the password generator projects can run on the Command Prompt or on Windows PowerShell.
 
 Intermediate Projects
 
