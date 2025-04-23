@@ -1,7 +1,7 @@
 Beginner Projects
 
 1. [Simple Calculator](https://github.com/user-10235/Python-Projects/blob/main/Project/calculator.py)
-3. Password Generator
+3. [Password Generator](https://github.com/user-10235/Python-Projects/blob/main/Project/passwordGenerator.py)
 
 Intemediate Projects
 
