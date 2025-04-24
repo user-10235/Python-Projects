@@ -2,7 +2,7 @@ Beginner Projects
 
 1. [Simple Calculator](https://github.com/user-10235/Python-Projects/blob/main/Project/calculator.py)
 2. [Password Generator](https://github.com/user-10235/Python-Projects/blob/main/Project/passwordGenerator.py)
-3. Countdown Timer
+3. [Countdown Time]r(https://github.com/user-10235/Python-Projects/blob/main/Project/countdown_timer.py)
 
 Intemediate Projects
 
